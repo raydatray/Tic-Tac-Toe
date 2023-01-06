@@ -1,0 +1,75 @@
+body {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.options {
+    margin: .5em;
+    display: inline-block;
+}
+
+select {
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.btn{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 0 1em 0 1em;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.board {
+    margin: .5em;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    justify-content: center;
+}
+
+.field {
+    background-color: lightblue;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    outline: none;
+}
+
+.no-r {
+    border-right: none;
+}
+
+.no-b {
+    border-bottom: none;
+}
+
+.no-br {
+    border-bottom: none;
+    border-right: none;
+}
